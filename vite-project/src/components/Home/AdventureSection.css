@@ -1,0 +1,21 @@
+.adventure-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .adventures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .adventure {
+    max-width: 200px;
+  }
+  
+  .adventure img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  

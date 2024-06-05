@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .navigation a, .list-property {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .list-property {
+    background-color: #1E90FF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .logo img {
+   
+    width: 36px;
+    height: 36px;
+  }
+  

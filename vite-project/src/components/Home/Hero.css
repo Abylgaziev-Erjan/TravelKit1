@@ -1,0 +1,64 @@
+.hero {
+  background-image: url('../../assets/images/wall.jpeg');
+  background-size: cover;
+  background-position: top;
+  padding-top: 250px;
+  height: 100vh;
+
+}
+
+.hero-text {
+  font-size: 50px;
+  color: #0f0f10;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero-text button {
+  font-weight: bold;
+  background-color: #1E90FF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.pharagraph {
+  color: #0f0f10;
+  -webkit-text-stroke-color: #fff;
+  -webkit-text-stroke-width: thin;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 1041px;
+  height: 120px;
+  gap: 20px;
+  
+}
+
+.search-bar input,
+.search-button {
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.search-button {
+  background-color: #1E90FF;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.input{
+  
+}

@@ -1,0 +1,19 @@
+.browse-category {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
