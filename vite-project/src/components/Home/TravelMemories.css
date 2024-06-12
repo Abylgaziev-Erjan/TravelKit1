@@ -1,13 +1,31 @@
 .travel-memories {
   padding: 50px 20px;
-  background-color: #fff;
+  background: #141416;
+ 
+  width: 1280px;
+  border-radius: 30px;
   text-align: center;
+}
+
+h2{
+  
+  margin: 50px;
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+p{
+  color: white;
 }
 
 .memories {
   display: flex;
   justify-content: center;
   gap: 20px;
+  max-width: 1070px;
 }
 
 .memory {
@@ -18,3 +36,10 @@
   width: 100%;
   border-radius: 10px;
 }
+
+.product img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+

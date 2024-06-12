@@ -1,8 +1,12 @@
 .hero {
-  background-image: url('../../assets/images/wall.jpeg');
+  background-image: url('../../assets/images/airrr.jpeg');
+  
+  background-color: #0f0f10;
   background-size: cover;
   background-position: top;
-  padding-top: 250px;
+  width: 1280px;
+  border-radius: 20px;
+  padding-top: 150px;
   height: 100vh;
 
 }
@@ -17,15 +21,6 @@
   text-align: center;
 }
 
-.hero-text button {
-  font-weight: bold;
-  background-color: #1E90FF;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  color: #fff;
-  margin-top: 20px;
-}
 
 .pharagraph {
   color: #0f0f10;
@@ -33,32 +28,45 @@
   -webkit-text-stroke-width: thin;
 }
 
+p{
+  color: #fff;
+  -webkit-text-stroke-color: #1c1b1b;
+  -webkit-text-stroke-width: thin;
+}
+
 .search-bar {
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  margin-top: 20px;
-  background-color: #fff;
+  margin-top: 250px;
+  background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.7) 93.38%);
+
   border-radius: 10px;
   width: 1041px;
   height: 120px;
   gap: 20px;
-  
+
 }
 
 .search-bar input,
 .search-button {
   margin: 0 10px;
   padding: 10px;
+  border-radius: 20px;
 }
 
 .search-button {
-  background-color: #1E90FF;
+  background-color:   #1E90FF;
   border: none;
   cursor: pointer;
   color: #fff;
 }
 
-.input{
-  
+.input {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  left: 258px;
+  right: 259px;
 }
