@@ -1,20 +1,18 @@
+import { useRoutes } from "react-router";
+import MainPage from "../MainPage";
+import ProfilePage from '../pages/profilePage/ProfilePage'
+import RegisterPage from "../pages/profilePage/RegisterPage";
+import LoginPage from "../pages/profilePage/LoginPage";
 
-import {
-    createBrowserRouter,
-    createRoutesFromElements,
-    Route,
-} from "react-router-dom";
-import Header from "../components/Home/Header";
-import App from "../App";
-import MainPage from "../pages/MainPage";
+function Routerview() {
+    const element = useRoutes([
+        {path: "/", element: <MainPage />},
+        {path: "/profile", element: <ProfilePage/>},
+        {path: "/login", element: <LoginPage/>},
+        {path: "/register", element: <RegisterPage/>},
+        
+    ])
+    return element
+}
 
-export const router = createBrowserRouter([
-    {
-        path: "/",
-        element: <MainPage />,
-    },
-    {
-        path: "/travelers",
-        element: <div>hduhdjdh</div>,
-    },
-]);
+export default Routerview

@@ -2,12 +2,16 @@ import React from 'react'
 import './ProfilePage.css'
 import Cover from '../../assets/images/userava.png'
 import ava from '../../assets/images/userava.png'
+import zakat from '../../assets/images/zakat.avif'
 
 export default function Profile() {
   return (
     <div className='main-container'>
+      
       <div className='content-container'>
+        
         <div className="avatar-container">
+        
           <img className="avatar" src={ava} alt="Avatar" />
           <button className="update-avatar">Update avatar</button>
         </div>

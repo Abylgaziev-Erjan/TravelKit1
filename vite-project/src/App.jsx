@@ -1,15 +1,21 @@
-import React from 'react';
-import Header from './components/Home/Header';
-import Hero from './components/Home/Hero';
-import AdventureSection from './components/Home/AdvetureSection';
-import TravelMemories from './components/Home/TravelMemories';
-import BrowseCategory from './components/Home/BrowseCategory';
-import Footer from './components/Home/Footer';
+  
 import './App.css';
+import Layout from './Layout/Layout';
+import Routerview from './router/index';
+
+
 
 function App() {
+
+
+
+
   return (
+
     <div className="App">
+      <Layout>
+        <Routerview />
+      </Layout>
       
     </div>
   );
