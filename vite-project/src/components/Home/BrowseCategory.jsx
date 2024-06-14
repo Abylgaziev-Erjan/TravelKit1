@@ -1,5 +1,6 @@
 import React from 'react';
 import './BrowseCategory.css';
+import {motion} from  "framer-motion"
 
 const BrowseCategory = () => {
   return (
@@ -9,9 +10,10 @@ const BrowseCategory = () => {
         <div className="category">
           <p>City house</p>
         </div>
-        <div className="category">
+        <motion.div  initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }} className="category">
           <p>Hover style</p>
-        </div>
+        </motion.div>
         <div className="category">
           <p>City house</p>
         </div>

@@ -8,13 +8,13 @@ const RegisterPage = () => {
         <div className="container">
             <h2>Регистрация</h2>
             <form>
-                <input type="text" name="username" placeholder="Имя пользователя" required />
+                <input type="text" name="username" placeholder="User name" required />
                 <input type="email" name="email" placeholder="Email" required />
-                <input type="password" name="password" placeholder="Пароль" required />
-                <button type="submit">Регистрация</button>
+                <input type="password" name="password" placeholder="Password" required />
+                <button type="submit">Register</button>
             </form>
             <div className="switch">
-                <span>Уже есть аккаунт? <Link to="/login">Войти</Link></span>
+                <span> Already have an account? <Link to="/login">Login</Link></span>
             </div>
         </div>
      );

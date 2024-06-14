@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
     return ( 
         <div className="container">
-            <h2>Логин</h2>
+            <h2>Login</h2>
             <form>
-                <input type="email" name="email" placeholder="Email" required />
-                <input type="password" name="password" placeholder="Пароль" required />
-                <button type="submit">Войти</button>
+                <input type="email" name="email" placeholder="Email" required  className="input-form"/>
+                <input type="password" name="password" placeholder="Password" required />
+                <button type="submit">Login</button>
             </form>
             <div className="switch">
-                <span>Нет аккаунта? <Link to="/register">Регистрация</Link></span>
+                <span>No account? <Link to="/register">Register</Link></span>
             </div>
         </div>
      );

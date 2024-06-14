@@ -40,7 +40,9 @@ p{
   padding-top: 20px;
   margin-top: 250px;
   background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.7) 93.38%);
-
+  max-width: 1040px;
+  left: 40px;
+  right: 40px;
   border-radius: 10px;
   width: 1041px;
   height: 120px;
@@ -51,7 +53,7 @@ p{
 .search-bar input,
 .search-button {
   margin: 0 10px;
-  padding: 10px;
+  padding:  10px;
   border-radius: 20px;
 }
 
@@ -67,6 +69,7 @@ p{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
-  left: 258px;
-  right: 259px;
+  left: 260px;
+  right: 260px;
+  
 }
