@@ -1,39 +1,45 @@
-.container {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 300px;
+.login_container {
+    background-image: url(../../assets/images/uta.jpeg);
+    background-repeat: no-repeat;
+    background-color: #0f0f10;
+    background-size: cover;
+    background-position: top;
+    width: 1280px;
+    border-radius: 20px;
+    padding-top: 150px;
+    height: 100vh;
 }
 
-.container h2 {
+h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.container form {
+form {
     display: flex;
     flex-direction: column;
+
 }
 
-.container form input {
+form input {
+    width: 250px;
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.container form button {
+form button {
     padding: 10px;
     border: none;
-    background-color: #28a745;
+    background-color: #007bff;
     color: white;
     border-radius: 4px;
     cursor: pointer;
 }
 
-.container form button:hover {
-    background-color: #218838;
+form button:hover {
+    background-color: #0056b3;
 }
 
 .switch {
@@ -42,10 +48,17 @@
 }
 
 .switch a {
-    color: #007bff;
+    color: #28a745;
     text-decoration: none;
 }
 
 .switch a:hover {
     text-decoration: underline;
 }
+
+span {
+    color: white;
+}
+
+
+

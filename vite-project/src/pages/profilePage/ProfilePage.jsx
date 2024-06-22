@@ -1,17 +1,34 @@
 import React from 'react'
 import './ProfilePage.css'
-import Cover from '../../assets/images/userava.png'
 import ava from '../../assets/images/userava.png'
-import zakat from '../../assets/images/zakat.avif'
+
+
 
 export default function Profile() {
   return (
     <div className='main-container'>
-      
+      <div className="settings-menu">
+        <div className="menu-item active">
+          <span className="icon">👤</span>
+          <span className="text">Personal info</span>
+        </div>
+        <div className="menu-item">
+          <span className="icon">🔒</span>
+          <span className="text">Login and security</span>
+        </div>
+        <div className="menu-item">
+          <span className="icon">💳</span>
+          <span className="text">Payments</span>
+        </div>
+        <div className="menu-item">
+          <span className="icon">🔔</span>
+          <span className="text">Notification</span>
+        </div>
+      </div>
       <div className='content-container'>
-        
+
         <div className="avatar-container">
-        
+
           <img className="avatar" src={ava} alt="Avatar" />
           <button className="update-avatar">Update avatar</button>
         </div>

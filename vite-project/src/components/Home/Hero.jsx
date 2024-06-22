@@ -1,7 +1,10 @@
 import React from 'react';
 import './Hero.css';
 
+
 const Hero = () => {
+    
+
     return (
         <section className="hero">
             <div className="herol">
@@ -13,11 +16,12 @@ const Hero = () => {
                 </div>
                 <div className="search-bar">
                     <div className='input'>
-                        <input type="text" placeholder="Flying from" />
-                        <input type="text" placeholder="Flying to" />
-                        <input type="date" placeholder="Departure" />
-                        <input type="date" placeholder="Return" />
+                        <input type="text" placeholder="Tour"/>
+                        
+                        
                         <button className="search-button">Search</button>
+                    
+                        
                     </div>
                     <div>
                     </div>

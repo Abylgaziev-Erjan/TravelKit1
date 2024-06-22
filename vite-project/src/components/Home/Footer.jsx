@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { FaSearch } from "react-icons/fa";
-
 
 const Footer = () => {
   return (
@@ -22,10 +20,7 @@ const Footer = () => {
           </div>
           <div className=''>
             <h4>Join our community 🔥</h4>
-            <div className="inpt">
-              <input className='inputf' type="text" placeholder="Enter your Email" />
-              <FaSearch />
-            </div>
+            
 
           </div>
         </div>

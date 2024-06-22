@@ -70,3 +70,34 @@
     margin-top: 10px;
   }
   
+  .settings-menu {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px dashed transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #4c4c4c;
+    font-size: 18px;
+  }
+  
+  .menu-item .icon {
+    margin-right: 10px;
+  }
+  
+  .menu-item.active {
+    color: #ffffff;
+    border-color: #6e00ff;
+  }
+  
+  .menu-item.active .icon {
+    color: #ffffff;
+  }
+  

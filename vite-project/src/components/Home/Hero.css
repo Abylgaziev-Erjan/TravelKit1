@@ -1,6 +1,5 @@
 .hero {
   background-image: url('../../assets/images/airrr.jpeg');
-  
   background-color: #0f0f10;
   background-size: cover;
   background-position: top;
@@ -38,14 +37,15 @@ p{
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  margin-top: 250px;
+  margin-top: 300px;
   background: linear-gradient(92.98deg, #23262F 3.54%, rgba(35, 38, 47, 0.7) 93.38%);
-
-  border-radius: 10px;
-  width: 1041px;
+  max-width: 1000px;
+  left: 40px;
+  right: 40px;
+  border-radius: 30px;
+  width: 700px;
   height: 120px;
   gap: 20px;
-
 }
 
 .search-bar input,
@@ -60,13 +60,18 @@ p{
   border: none;
   cursor: pointer;
   color: #fff;
+  width: 100px;
 }
 
 .input {
-  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr ;
   align-items: center;
-  left: 258px;
-  right: 259px;
+  justify-content: center;
+  left: 260px;
+  right: 260px;
+  
 }
