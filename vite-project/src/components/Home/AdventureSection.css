@@ -21,7 +21,11 @@
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
-    
+  }
+
+  .adventure p{
+    color: white;
+    text-decoration: none;
   }
 
   

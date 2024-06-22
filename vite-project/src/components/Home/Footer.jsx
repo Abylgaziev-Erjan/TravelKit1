@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { FaSearch } from "react-icons/fa";
-
 
 const Footer = () => {
   return (

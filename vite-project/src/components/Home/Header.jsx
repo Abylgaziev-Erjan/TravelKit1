@@ -9,16 +9,15 @@ const Header = () => {
   const token = localStorage.getItem("token");
   return (
     <header className="header">
+    
       <NavLink to={'/'} className="logo"> <img src={Logo} alt="logo" /> fleet</NavLink>
       <nav className="navigation">
         <NavLink to={'/travelers'}>Travelers</NavLink>
-        <NavLink to={'/support'}>Support</NavLink>
-        <NavLink to={'/language'} img={Iconka}>Language</NavLink>
         <NavLink to={token ? '/profile' : '/login'}>
           <img className='account' src={Account} alt="" />
         </NavLink>
       </nav>
-    </header>
+    </header> 
   );
 };
 

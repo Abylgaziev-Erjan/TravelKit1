@@ -1,13 +1,13 @@
-
-.container {
-    background-color: #141416;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    width: 300px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.login_container {
+    background-image: url(../../assets/images/uta.jpeg);
+    background-repeat: no-repeat;
+    background-color: #0f0f10;
+    background-size: cover;
+    background-position: top;
+    width: 1280px;
+    border-radius: 20px;
+    padding-top: 150px;
+    height: 100vh;
 }
 
 h2 {
@@ -56,6 +56,9 @@ form button:hover {
     text-decoration: underline;
 }
 
-span{
+span {
     color: white;
 }
+
+
+

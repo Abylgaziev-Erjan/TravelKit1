@@ -1,7 +1,7 @@
 .footer {
-  background-color: #141416;
+  background-color: #fff;
   padding: 20px;
-  color: white;
+  color: #000;
 }
 
 .footer-content {
@@ -24,7 +24,7 @@
 .footer-container button {
   background: none;
   border: none;
-  color: white;
+  color: black;
 
 }
 
